@@ -6,7 +6,7 @@ yarn install
 yarn start
 ```
 
-- or -
+-= or =-
 
 [Open in Codesandbox]() 
 
