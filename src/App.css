@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.App-header {
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  border-right: 1px solid white;
+}
+
+.App-header .App-link {
+  color: #61dafb;
+  text-decoration: none;
+  padding: 5px 20px 5px 5px;
+}
+
+.App-header .App-link.active {
+  background: white;
+  color: #282c34;
+}
+
+.App-main {
+  flex: auto;
+  align-self: center;
+}
+
+.redBox {
+  background: red;
+  height: 250px;
+  width: 50%;
+  margin: auto;
+}
+
+.greenBox {
+  background: green;
+  height: 200px;
+}
