@@ -7,6 +7,7 @@
 }
 
 .App-header {
+  flex-shrink: 0;
   height: 100vh;
   overflow: auto;
   display: flex;
