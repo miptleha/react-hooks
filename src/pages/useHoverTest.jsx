@@ -9,7 +9,7 @@ export default function UseHoverTest() {
     const greenHover = useHover(refGreenBox);
 
     return (
-        <div>
+        <div className="center-top">
             <h1>Сhecks if the mouse cursor is over an element</h1>
             <div className="redBox" ref={refRedBox}>
                 Hover: {redHover.toString()}

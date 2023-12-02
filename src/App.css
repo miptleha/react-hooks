@@ -30,7 +30,19 @@
 
 .App-main {
   flex: auto;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+}
+
+.center {
   align-self: center;
+  margin: auto;
+}
+
+.center-top {
+  align-self: top;
+  margin: 0 auto;
 }
 
 .redBox {
@@ -43,4 +55,43 @@
 .greenBox {
   background: green;
   height: 200px;
+}
+
+.error {
+  color: red;
+}
+
+.wide-input {
+  width: 80%;
+  margin-right: 20px;
+}
+
+.product {
+  display: flex;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 14px;
+  text-align: left;
+}
+
+.product_data {
+  flex: 1 1 auto;
+  width: 80%;
+}
+
+.product_desc {
+  padding-right: 20px;
+}
+
+.product_img {
+  display: flex;
+  flex: 0 0 230px;
+  max-height: 230px;
+}
+
+.product_img img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }

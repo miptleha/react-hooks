@@ -17,7 +17,7 @@ export default function useDebounceTest() {
     }
 
     return (
-        <div>
+        <div className="center-top">
             <h1>Debounce user input</h1>
             <p><input onChange={onChange} value={value} placeholder="Type something"/></p>
             <p>Input value: {value}</p>

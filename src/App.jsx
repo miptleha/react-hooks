@@ -1,23 +1,29 @@
 import './App.css';
 import { Routes, Route, NavLink } from "react-router-dom";
-import UseInputTest from "./pages/useInputTest";
-import UseHoverTest from "./pages/useHoverTest";
-import UseDebounceTest from "./pages/useDebounceTest";
+import { UseInputTest, UseHoverTest, UseDebounceTest, UseRequestTest } from './pages';
 
 function App() {
+
+  const links = [
+    { name: "", component: (<h1 className="center">Select custom hook from left menu</h1>)},
+    { name: "useInput", component: (<UseInputTest />) },
+    { name: "useHover", component: (<UseHoverTest />) },
+    { name: "useDebounce", component: (<UseDebounceTest />) },
+    { name: "useRequest", component: (<UseRequestTest />) },
+  ]
+
   return (
     <div className="App">
       <header className="App-header">
-        <NavLink className="App-link" to="/useInput">useInput</NavLink>
-        <NavLink className="App-link" to="/useHover">useHover</NavLink>
-        <NavLink className="App-link" to="/useDebounce">useDebounce</NavLink>
+        {links.filter(l => l.name).map(l => (
+          <NavLink key={l.name} className="App-link" to={`/${l.name}`}>{l.name}</NavLink>
+        ))}
       </header>
       <main className="App-main">
         <Routes>
-          <Route path="/" element={<h1>Select custom hook from left menu</h1>} />
-          <Route path="/useInput" element={<UseInputTest />} />
-          <Route path="/useHover" element={<UseHoverTest />} />
-          <Route path="/useDebounce" element={<UseDebounceTest />} />
+          {links.map(l => (
+            <Route key={l.name} path={`/${l.name}`} element={l.component} />  
+          ))}
         </Routes>
       </main>
     </div>

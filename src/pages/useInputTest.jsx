@@ -6,7 +6,7 @@ export default function UseInputTest() {
     const email = useInput("");
     
     return (
-        <div>
+        <div className="center-top">
             <h1>Make it easier to work with a text input</h1>
             <p><input {...name} type="text" placeholder="Name" /></p>
             <p><input {...email} type="text" placeholder="Email" /></p>
