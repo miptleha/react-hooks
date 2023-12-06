@@ -95,3 +95,19 @@
   height: 100%;
   width: 100%;
 }
+
+.itemBox {
+  height: 100px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 14px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollDiv {
+  height: 100px;
+}

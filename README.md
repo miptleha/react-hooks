@@ -18,4 +18,4 @@ yarn start
 | useHover | Determines whether the mouse is over an element | [src](src/hooks/useHover.js) [usage](src/pages/useHoverTest.jsx) |
 | useDebounce | Removes frequent function calls | [src](src/hooks/useDebounce.js) [usage](src/pages/useDebounceTest.jsx) |
 | useRequest | Fetches JSON data by URL | [src](src/hooks/useRequest.js) [usage](src/pages/useRequestTest.jsx) |
-
+| useScroll | Creates infinite scroll | [src](src/hooks/useScroll.js) [usage](src/pages/useScrollTest.jsx) |

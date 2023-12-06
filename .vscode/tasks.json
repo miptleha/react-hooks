@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "yarn-start",
+            "type": "shell",
+            "command": "npx cross-env BROWSER=none react-scripts start",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "custom",   // This is not needed but, required by the problemMatcher Object
+                "pattern": {
+                  "regexp": "^$"     // This is not needed but, required by the problemMatcher Object
+                },
+                "background": {
+                  "activeOnStart": true,
+                  "beginsPattern": " run ",          // Signals the begin of the Task
+                  "endsPattern": " compiled "      // Signals that now the initialization of the task is complete
+                }
+             }
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route, NavLink } from "react-router-dom";
-import { UseInputTest, UseHoverTest, UseDebounceTest, UseRequestTest } from './pages';
+import { UseInputTest, UseHoverTest, UseDebounceTest, UseRequestTest, UseScrollTest } from './pages';
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
     { name: "useHover", component: (<UseHoverTest />) },
     { name: "useDebounce", component: (<UseDebounceTest />) },
     { name: "useRequest", component: (<UseRequestTest />) },
+    { name: "useScroll", component: (<UseScrollTest />) },
   ]
 
   return (
