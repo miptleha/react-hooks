@@ -5,7 +5,7 @@ Run demo app
 yarn install
 yarn start
 ```
-In Visual Studio Code you can click `Start Debugging` instead of `yarn start` command.
+In Visual Studio Code you can click `Start Debugging` instead of `yarn start` command
 
 -=    &nbsp;&nbsp; or &nbsp;&nbsp;   =-
 
