@@ -13,8 +13,12 @@ export default function UseIdleTest() {
     return (
         <div className="center-top">
             <h1>Detects user activity</h1>
-            <p><input ref={inputRef} type="text" placeholder="Some input" />&nbsp;&nbsp;<button onClick={click}>Some button</button></p>
-            <p ref={pRef}>&nbsp;</p>
+            <p>
+                <input ref={inputRef} type="text" placeholder="Text input field" />
+                &nbsp;&nbsp;
+                <button onClick={click}>Button</button>
+            </p>
+            <p ref={pRef}>⠀</p>
             {isIdle ?
                 <p className="inactive-status">User inactive</p> 
             :
