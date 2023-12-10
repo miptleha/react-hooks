@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route, NavLink } from "react-router-dom";
 import { UseInputTest, UseHoverTest, UseDebounceTest, UseRequestTest, UseScrollTest } from './pages';
-import { UseToggleTest } from './pages';
+import { UseToggleTest, UseLocalStorageTest } from './pages';
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
     { name: "useRequest", component: (<UseRequestTest />) },
     { name: "useScroll", component: (<UseScrollTest />) },
     { name: "useToggle", component: (<UseToggleTest />) },
+    { name: "useLocalStorage", component: (<UseLocalStorageTest />) },
   ]
 
   return (

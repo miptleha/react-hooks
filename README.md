@@ -21,3 +21,4 @@ In Visual Studio Code you can click `Start Debugging` instead of `yarn start` co
 | useRequest | Fetches JSON data by URL | [src](src/hooks/useRequest.js) [usage](src/pages/useRequestTest.jsx) |
 | useScroll | Creates infinite scroll | [src](src/hooks/useScroll.js) [usage](src/pages/useScrollTest.jsx) |
 | useToggle | Bool state logic | [src](src/hooks/useToggle.js) [usage](src/pages/useToggleTest.jsx) |
+| useLocalStorage | Saves state in local storage | [src](src/hooks/useLocalStorage.js) [usage](src/pages/useLocalStorageTest.jsx) |
