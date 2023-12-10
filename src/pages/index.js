@@ -4,4 +4,7 @@ import UseDebounceTest from "./useDebounceTest";
 import UseRequestTest from './useRequestTest';
 import UseScrollTest from "./useScrollTest";
 
+import UseToggleTest from "./useToggleTest";
+
 export { UseInputTest, UseHoverTest, UseDebounceTest, UseRequestTest, UseScrollTest };
+export { UseToggleTest };

@@ -19,3 +19,4 @@ yarn start
 | useDebounce | Removes frequent function calls | [src](src/hooks/useDebounce.js) [usage](src/pages/useDebounceTest.jsx) |
 | useRequest | Fetches JSON data by URL | [src](src/hooks/useRequest.js) [usage](src/pages/useRequestTest.jsx) |
 | useScroll | Creates infinite scroll | [src](src/hooks/useScroll.js) [usage](src/pages/useScrollTest.jsx) |
+| useToggle | Bool state logic | [src](src/hooks/useToggle.js) [usage](src/pages/useToggleTest.jsx) |
