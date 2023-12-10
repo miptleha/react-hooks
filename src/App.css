@@ -115,3 +115,20 @@
 .narrow-block {
   max-width: 500px;
 }
+
+.active-status {
+  color: #61dafb;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.inactive-status {
+  color: #61dafb;
+  opacity: 0.6;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.tall-div {
+  height: 2000px;
+}

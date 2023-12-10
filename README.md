@@ -22,3 +22,4 @@ In Visual Studio Code you can click `Start Debugging` instead of `yarn start` co
 | useScroll | Creates infinite scroll | [src](src/hooks/useScroll.js) [usage](src/pages/useScrollTest.jsx) |
 | useToggle | Bool state logic | [src](src/hooks/useToggle.js) [usage](src/pages/useToggleTest.jsx) |
 | useLocalStorage | Saves state in local storage | [src](src/hooks/useLocalStorage.js) [usage](src/pages/useLocalStorageTest.jsx) |
+| useIdle | Tracks if user on page is idle | [src](src/hooks/useIdle.js) [usage](src/pages/useIdleTest.jsx) |

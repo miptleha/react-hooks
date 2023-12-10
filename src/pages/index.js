@@ -6,6 +6,7 @@ import UseScrollTest from "./useScrollTest";
 
 import UseToggleTest from "./useToggleTest";
 import UseLocalStorageTest from "./useLocalStorageTest";
+import UseIdleTest from "./useIdleTest";
 
 export { UseInputTest, UseHoverTest, UseDebounceTest, UseRequestTest, UseScrollTest };
-export { UseToggleTest, UseLocalStorageTest };
+export { UseToggleTest, UseLocalStorageTest, UseIdleTest };
